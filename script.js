@@ -1,4 +1,4 @@
-   alert("Rozpoznawane komendy: kup*, mam* i koniec. Mów głośno! Lista zostanie przechowana nawet po zamknięciu przeglądarki. Działa tylko pod Chrome");
+   alert("Rozpoznawane komendy: kup*, mam* i koniec. W miejsce gwiazdki wstaw produkt. Działa tylko w Chrome i oczywiście tylko z mikrofonem. Lista będzie przechowana nawet po zamknięciu przeglądarki");
    const allItems = [];
    var retrievedData = localStorage.getItem("list");
    // jeżeli jest coś w local storage, to wyświetl
