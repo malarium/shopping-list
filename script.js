@@ -1,8 +1,4 @@
-   alert("
-    Rozpoznawane komendy: kup*, mam* i koniec.
-    W miejsce gwiazdek należy podać produkt (1 słowo)
-      Oczywiście trzeba włączyć dostęp do mikrofonu
-    Lista zostanie przechowana nawet po zamknięciu przeglądarki, listę kasuje komenda 'koniec'");
+   alert("Rozpoznawane komendy: kup*, mam* i koniec. W miejsce gwiazdek należy podać produkt (1 słowo) Oczywiście trzeba włączyć dostęp do mikrofonu. Lista zostanie przechowana nawet po zamknięciu przeglądarki, listę kasuje komenda KONIEC");
    const allItems = [];
    var retrievedData = localStorage.getItem("list");
    // jeżeli jest coś w local storage, to wyświetl
