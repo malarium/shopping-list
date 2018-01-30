@@ -1,4 +1,4 @@
-   alert("Rozpoznawane komendy: kup*, mam* i koniec. Mów głośno! Działą tylko pod Chrome");
+   alert("Rozpoznawane komendy: kup*, mam* i koniec. Mów głośno! Lista zostanie przechowana nawet po zamknięciu przeglądarki. Działa tylko pod Chrome");
    const allItems = [];
    var retrievedData = localStorage.getItem("list");
    // jeżeli jest coś w local storage, to wyświetl
