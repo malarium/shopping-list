@@ -1,6 +1,14 @@
 # speech.github.io
 Speech recognition APP
 Works only on Chrome as it is experimantal API.
+You can check it here: https://malarium.github.io/shopping-list/
+
+Say "kup" + item (kup chleb) to add item to the list.
+Say "mam" + item (mam chleb) to remove item from the list.
+Say "koniec" to clear the list.
+
+It preserves your lists in local storage.
+
 
 Powered by Annyang library (THX GUYS!)
 
